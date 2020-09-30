@@ -1,0 +1,49 @@
+Algorithm for typing
+
+Type function order
+
+INTP: Ti-Ne-Si-Fe.     
+INFP: Fi-Ne-Si-Fe
+ENFP: Ne-Fi-Te-Si
+ENTP: Ne-Ti-Fe-Si
+ISTP: Ti-Se-Ni-Fe
+ISFP: Fi-Se-Ni-Te
+ESFP: Se-Fi-Te-Ni
+ESTP: Se-Ti-Fe-Ni
+INTJ: Ni-Te-Fi-Se
+INFJ: Ni-Fe-Ti-Se
+ENFJ: Fe-Ni-Se-Ti
+ENTJ: Te-Ni-Se-Fi
+ISTJ: Si-Te-Fi-Ne
+ISFJ: Si-Fe-Ti-Ne
+ESFJ: Fe-Si-Ne-Ti
+ESTJ: Te-Si-Ne-Fi
+
+
+Assign Ne,Ni,Se,Si,Te,Ti,Fe,Fi = 0
+Assign a multiplier value "m" to each question, this question tells the potency and coherence with the respective functions.
+Based on the rating per question(1,2,3,4,5) multiply it by m and assign score in the variables for functions
+Repeat process for all questions
+At the end find the max valued function in Ne....Fi, this is the dominant function
+Now look for the next function based on the description of types 
+
+Ex : After the end of answering, the variables have the value 
+Ti = 50
+Te= 43
+Fi= 45
+Fe= 42
+Ne= 45
+Ni = 46
+Se = 35
+Si = 39
+
+Highest value = 50 = Ti
+
+Ti dominant types = INTP, ISTP
+INTP second function = Ne
+ISTP second function = Se 
+Comparing Ne and Se values = Ne>Se
+
+Probable type = INTP
+
+Other probable types = INTJ(applying same procedure on second highest),ENTP(on third largest) 
