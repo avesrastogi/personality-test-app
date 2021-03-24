@@ -22,7 +22,7 @@ ESTJ: Te-Si-Ne-Fi
 
 Assign Ne,Ni,Se,Si,Te,Ti,Fe,Fi = 0
 Assign a multiplier value "m" to each question, this question tells the potency and coherence with the respective functions.
-Based on the rating per question(1,2,3,4,5) multiply it by m and assign score in the variables for functions
+Based on the rating per question(1,2,3,4,5) add it to m and assign score in the variables for functions
 Repeat process for all questions
 At the end find the max valued function in Ne....Fi, this is the dominant function
 Now look for the next function based on the description of types 
